@@ -1,6 +1,6 @@
 /**
  * Class Name : AngularLocalStorage
- * Description: 
+ * Description: If localstorage is not available in browser, this will use cookies to store values and retrieve.
  */
 
 import { CookieService } from 'ng2-cookies';
